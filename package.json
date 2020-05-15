@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "outside": "bin/test"
+    "taut": "bin/taut"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tannerbyers/TautJs/issues"
   },
-  "homepage": "https://github.com/tannerbyers/TautJs#readme"
+  "homepage": "https://github.com/tannerbyers/TautJs#readme",
+  "dependencies": {
+    "undefined": "^0.1.0"
+  }
 }

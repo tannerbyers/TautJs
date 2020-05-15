@@ -12,12 +12,14 @@
 
 ![](https://raw.githubusercontent.com/cfpb/open-source-project-template/master/screenshot.png)
 
+```
+Currently the CLI takes in "taut install" or "taut help". taut install will need to be expanded to accept options AND to inspect the package before isntall and prompting the user (eg "This dependency access your filesystem. Are you sure you want to continue this installation?")
+```
 
 ## Dependencies
 
-Describe any dependencies that must be installed for this software to work.
+We will try to keep this as tiny as possible
 This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
-If specific versions of other software are required, or known not to work, call that out.
 
 ## Installation
 

@@ -1,6 +1,5 @@
 # TauntJs 
 
-
 ## To run:
  ```
  git clone https://github.com/tannerbyers/TautJs.git
@@ -17,10 +16,8 @@
 - **Status**:  Alpha[CHANGELOG](CHANGELOG.md).
   - **Links to production or demo instances**
   
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
-
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/master/screenshot.png)
-
+  
+ Trello: https://trello.com/invite/b/CeatfPLp/a403335efefc032361fea2abfbff3ecd/tautjs
 ```
 Currently the CLI takes in "taut install" or "taut help". taut install will need to be expanded to accept options AND to inspect the package before isntall and prompting the user (eg "This dependency access your filesystem. Are you sure you want to continue this installation?")
 ```

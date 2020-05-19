@@ -1,5 +1,14 @@
 # TauntJs 
 
+
+## To run:
+ ```
+ git clone https://github.com/tannerbyers/TautJs.git
+ cd TautJs
+ npm link
+ taut
+ ```
+
 **Description**: This is a Node CLI that allows you to limit and analyze a project's dependencies security and performance issues. 
 
 ** Background 

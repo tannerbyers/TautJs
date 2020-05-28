@@ -8,8 +8,10 @@
  taut
  ```
 
-**Description**: This is a Node CLI that allows you to limit and analyze a project's dependencies security and performance issues. 
+**Description**: This is a Node CLI that allows you to limit and analyze a project's dependencies security and performance issues. When you are install new packages and want to see if they interact with your file system, expain in file size past 5mb, or make some connection via your network BEFORE you have it installed, type ```taut install {package name}``` and it will inspect that for you and confirm before anything is install/downloaded. We also are working on a way to inspect existing project dependencies for the above issues. 
 
+**Reason to use this**
+Increased Performance, Security, and Peace of Mind that you know what your dependencies are doing. 
 ** Background 
 - **Technology stack**: NodeJs
 

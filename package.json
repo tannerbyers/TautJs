@@ -16,7 +16,5 @@
     "url": "https://github.com/tannerbyers/TautJs/issues"
   },
   "homepage": "https://github.com/tannerbyers/TautJs#readme",
-  "dependencies": {
-    "undefined": "^0.1.0"
-  }
+  "dependencies": {}
 }

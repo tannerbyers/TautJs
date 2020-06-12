@@ -1,17 +1,25 @@
 # TauntJs 
 
-**Description**: This is a Node CLI that allows you to limit and analyze a project's dependencies security and performance issues. 
+## To run:
+ ```
+ git clone https://github.com/tannerbyers/TautJs.git
+ cd TautJs
+ npm link
+ taut
+ ```
 
+**Description**: This is a Node CLI that allows you to limit and analyze a project's dependencies security and performance issues. When you are install new packages and want to see if they interact with your file system, expain in file size past 5mb, or make some connection via your network BEFORE you have it installed, type ```taut install {package name}``` and it will inspect that for you and confirm before anything is install/downloaded. We also are working on a way to inspect existing project dependencies for the above issues. 
+
+**Reason to use this**
+Increased Performance, Security, and Peace of Mind that you know what your dependencies are doing. 
 ** Background 
 - **Technology stack**: NodeJs
 
 - **Status**:  Alpha[CHANGELOG](CHANGELOG.md).
   - **Links to production or demo instances**
   
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
-
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/master/screenshot.png)
-
+  
+ Trello: https://trello.com/invite/b/CeatfPLp/a403335efefc032361fea2abfbff3ecd/tautjs
 ```
 Currently the CLI takes in "taut install" or "taut help". taut install will need to be expanded to accept options AND to inspect the package before isntall and prompting the user (eg "This dependency access your filesystem. Are you sure you want to continue this installation?")
 ```

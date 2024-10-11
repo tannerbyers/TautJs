@@ -2,6 +2,10 @@
 
 [![npm version](https://badge.fury.io/js/taut-cli.svg)](https://badge.fury.io/js/taut-cli) ![npm downloads](https://img.shields.io/npm/dt/taut-cli) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
+<p align="center">
+  <img src="/tautJs-logo.svg" alt="Taut CLI Logo" width="150" height="150">
+</p>
+
 **Taut** is a Node CLI tool designed to help developers analyze project dependencies for performance and security risks **before** installation. It inspects new and existing dependencies for file system interactions, large file sizes, and network requests, providing security and performance transparency.
 
 > 🛠 **Why Use Taut?**
